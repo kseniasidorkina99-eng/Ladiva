@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="ru" style="scroll-behavior: smooth;">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La DIVA - Студия эпиляции</title>
+    <!-- Подключаем шрифт Montserrat -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Подключаем стили -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <!-- HEADER -->
+    <header class="header">
+        <div class="header-left">
+            <div class="header-box">
+                <div class="header-logo">La DIVA</div>
+                <nav class="header-nav">
+                    <a href="#services">Услуги</a>
+                    <a href="#promotions">Акции</a>
+                    <a href="#about">Мы</a>
+                    <a href="#reviews">Отзывы</a>
+                </nav>
+            </div>
+        </div>
+        <div class="header-contact">
+            <div class="phone">+7(996) 709-38-16</div>
+            <div class="time">г. Барнаул пн-вс 10:00-20:00</div>
+        </div>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section class="hero">
+        <div class="hero-left">
+            <div class="hero-banner-card">
+                <h1 class="hero-title">Студия эпиляции - ваша свобода<br>от лишних волос</h1>
+                <!-- Изображение девушки в синем купальнике -->
+                <img class="hero-banner-img" src="https://images.unsplash.com/photo-1600334089648-b0d9d3028eb2?auto=format&fit=crop&q=80&w=800" alt="Woman">
+            </div>
+            <div class="left-btn-wrapper">
+                <a href="#contact" class="hero-btn">Запись на процедуру</a>
+            </div>
+        </div>
+        
+        <div class="hero-right">
+            <div class="hero-right-cards">
+                <div class="promo-card">
+                    <div class="promo-text">
+                        <strong>скидка 15%</strong> на первое<br>посещение по промокоду<br>“ГЛАДКО”
+                    </div>
+                    <!-- Изображение синего воска на шпателе -->
+                    <img src="https://images.unsplash.com/photo-1544161515-4ab6ce6bc871?auto=format&fit=crop&q=80&w=400" class="promo-wax-img" alt="Wax">
+                </div>
+                
+                <div class="hero-bottom-grid">
+                    <div class="stats-card">
+                        <div class="num">7</div>
+                        <p>лет, тысячи довольных клиентов</p>
+                        <!-- Изображение ног с бритвой -->
+                        <img src="https://images.unsplash.com/photo-1555529733-0e67056058e1?auto=format&fit=crop&q=80&w=300" class="stats-img" alt="Legs">
+                    </div>
+                    <div class="hands-card">
+                        <!-- Изображение рук-сердечка в перчатках -->
+                        <img src="https://images.unsplash.com/photo-1582213782179-e0d53f98f2ca?auto=format&fit=crop&q=80&w=300" alt="Hands">
+                    </div>
+                </div>
+            </div>
+            <div class="right-btn-wrapper">
+                <a href="#contact" class="hero-btn">Консультация</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- TABS SECTION -->
+    <section id="services" class="tabs-section">
+        <div class="tabs-nav">
+            <div class="gender-tabs">
+                <span class="tab-link active" data-type="gender" data-val="women">Для женщин</span>
+                <span class="tab-sep">/</span>
+                <span class="tab-link" data-type="gender" data-val="men">Для мужчин</span>
+            </div>
+            <div class="category-tabs-wrapper">
+                <div class="category-tabs">
+                    <span class="tab-link active" data-type="category" data-val="epilation">Эпиляция</span>
+                    <span class="tab-sep">/</span>
+                    <span class="tab-link" data-type="category" data-val="cosmetology">Косметология</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="tabs-content">
+            <!-- ЖЕНЩИНЫ - ЭПИЛЯЦИЯ -->
+            <div class="tab-pane active" id="pane-women-epilation">
+                <div class="services-grid">
+                    <div class="service-card has-img" style="background-image: url('https://images.unsplash.com/photo-1570534237739-16a6cb82eeb2?auto=format&fit=crop&q=80&w=400');">
+                        <div>
+                            <div class="service-card-title">Лазерная эпиляция</div>
+                            <div class="service-card-price">от 500 ₽</div>
+                        </div>
+                        <div class="card-btn">
+                            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"></polyline></svg>
+                        </div>
+                    </div>
+                    <div class="service-card has-img" style="background-image: url('https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?auto=format&fit=crop&q=80&w=400');">
+                        <div>
+                            <div class="service-card-title">Электроэпиляция</div>
+                            <div class="service-card-price">от 15 ₽ за минуту</div>
+                        </div>
+                        <div class="card-btn">
+                            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"></polyline></svg>
+                        </div>
+                    </div>
+                    <div class="service-card has-img" style="background-image: url('https://images.unsplash.com/photo-1560750588-73207b1ef5b8?auto=format&fit=crop&q=80&w=600');">
+                        <div>
+                            <div class="service-card-title">Депиляция воском</div>
+                            <div class="service-card-price">от 500 ₽</div>
+                        </div>
+                        <div class="card-btn">
+                            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"></polyline></svg>
+                        </div>
+                    </div>
+                    <div class="service-card has-img" style="background-image: url('https://images.unsplash.com/photo-1510255393165-bc50baebae55?auto=format&fit=crop&q=80&w=600');">
+                        <div>
+                            <div class="service-card-title">Депиляция сахаром</div>
+                            <div class="service-card-price">от 500 ₽</div>
+                        </div>
+                        <div class="card-btn">
+                            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"></polyline></svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ЖЕНЩИНЫ - КОСМЕТОЛОГИЯ -->
+            <div class="tab-pane" id="pane-women-cosmetology">
+                <div class="services-grid">
+                    <div class="service-card has-img" style="background-image: url('https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?auto=format&fit=crop&q=80&w=400');">
+                        <div>
+                            <div class="service-card-title">Массаж лица</div>
+                            <div class="service-card-price">от 1500 ₽</div>
+                        </div>
+                        <div class="card-btn">
+                            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"></polyline></svg>
+                        </div>
+                    </div>
+                    <div class="service-card has-img" style="background-image: url('https://images.unsplash.com/photo-1515377905703-c4788e51af15?auto=format&fit=crop&q=80&w=400');">
+                        <div>
+                            <div class="service-card-title">Комбо</div>
+                            <div class="service-card-price">от 2800 ₽</div>
+                        </div>
+                        <div class="card-btn">
+                            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"></polyline></svg>
+                        </div>
+                    </div>
+                    <div class="service-card has-img" style="background-image: url('https://images.unsplash.com/photo-1552693673-1bf958298935?auto=format&fit=crop&q=80&w=600');">
+                        <div>
+                            <div class="service-card-title">Чистка лица</div>
+                            <div class="service-card-price">от 1500 ₽</div>
+                        </div>
+                        <div class="card-btn">
+                            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"></polyline></svg>
+                        </div>
+                    </div>
+                    <div class="service-card has-img" style="background-image: url('https://images.unsplash.com/photo-1611077544837-77b318c5e6f6?auto=format&fit=crop&q=80&w=600');">
+                        <div>
+                            <div class="service-card-title">Пилинг</div>
+                            <div class="service-card-price">от 1800 ₽</div>
+                        </div>
+                        <div class="card-btn">
+                            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"></polyline></svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- МУЖЧИНЫ - ЭПИЛЯЦИЯ -->
+            <div class="tab-pane" id="pane-men-epilation">
+                <div class="services-grid-men">
+                    <div class="service-card">
+                        <div>
+                            <div class="service-card-title">Лазерная эпиляция</div>
+                            <div class="service-card-price">от 500 ₽</div>
+                        </div>
+                        <div class="card-btn">
+                            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"></polyline></svg>
+                        </div>
+                    </div>
+                    <div class="service-card">
+                        <div>
+                            <div class="service-card-title">Депиляция воском</div>
+                            <div class="service-card-price">от 400 ₽</div>
+                        </div>
+                        <div class="card-btn">
+                            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"></polyline></svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- МУЖЧИНЫ - КОСМЕТОЛОГИЯ -->
+            <div class="tab-pane" id="pane-men-cosmetology">
+                <div class="empty-state">
+                    В данном разделе пока нет доступных процедур.
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROMOTIONS SECTION -->
+    <section id="promotions" class="promotions">
+        <h2 class="section-title">Акции</h2>
+        <div class="promotions-list">
+            <div class="promo-item">
+                <div class="promo-info">
+                    <h3>-20% на первый визит Электроэпиляции</h3>
+                    <p>Дешевле, чем бритва посещения салона</p>
+                    <div class="price">от 1 500 ₽</div>
+                </div>
+                <a href="#contact" class="btn btn-white">Записаться</a>
+            </div>
+            <div class="promo-item">
+                <div class="promo-info">
+                    <h3>Любые 2 зоны за 1999р (лазер)</h3>
+                    <p>Дешевле, чем по отдельности</p>
+                    <div class="price">1 999 ₽</div>
+                </div>
+                <a href="#contact" class="btn btn-white">Записаться</a>
+            </div>
+            <div class="promo-item">
+                <div class="promo-info">
+                    <h3>-15% на 3 процедуры пилинга лица</h3>
+                    <p>Дешевле, чем на каждое посещение</p>
+                    <div class="price">4 100 ₽</div>
+                </div>
+                <a href="#contact" class="btn btn-white">Записаться</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ABOUT STUDIO -->
+    <section id="about" class="about-section">
+        <div class="about-left">
+            <h2 class="section-title">Студия LA DIVA</h2>
+            <div class="subtitle">Работаем ежедневно с 10:00 до 20:00</div>
+            <div class="desc">
+                <p>Специализируется на разного вида эпиляции и услугах по уходу за лицом, уделяя особое внимание комфорту и безопасности каждого клиента.</p>
+                <p>Работаем на современном оборудовании, используя профессиональные материалы. Процедуры проходят максимально эффективно и бережно для кожи.</p>
+                <p>Уютная атмосфера, деликатный подход и строгие стандарты качества означают, что вы хотите чувствовать себя спокойно и уверенно на каждом этапе ухода.</p>
+            </div>
+            <a href="#contact" class="btn btn-grey">Запись на процедуру</a>
+        </div>
+        <div class="about-right">
+            <div class="main-img-wrap">
+                <img src="https://images.unsplash.com/photo-1629909613654-28e377c37b09?auto=format&fit=crop&q=80&w=800" alt="Интерьер">
+            </div>
+            <div class="sub-img-row">
+                <div class="sub-img-wrap"><img src="https://images.unsplash.com/photo-1596755389378-cbf3bd6d6499?auto=format&fit=crop&q=80&w=300" alt=""></div>
+                <div class="sub-img-wrap"><img src="https://images.unsplash.com/photo-1600334089648-b0d9d3028eb2?auto=format&fit=crop&q=80&w=300" alt=""></div>
+                <div class="sub-img-wrap"><img src="https://images.unsplash.com/photo-1588636253488-84224a9edbd2?auto=format&fit=crop&q=80&w=300" alt=""></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- TEAM SECTION -->
+    <section id="reviews" class="team-section">
+        <h2 class="section-title">Команда</h2>
+        <div class="team-grid">
+            <div class="team-card">
+                <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&q=80&w=400" alt="Мастер Ксения">
+                <div class="team-info">
+                    <h4>Мастер Ксения</h4>
+                    <p>Прошла обучение. Специалист по лазерной эпиляции.</p>
+                </div>
+            </div>
+            <div class="team-card">
+                <img src="https://images.unsplash.com/photo-1559839734-2b71ea197ec2?auto=format&fit=crop&q=80&w=400" alt="Мастер Анна">
+                <div class="team-info">
+                    <h4>Мастер Анна</h4>
+                    <p>Сертифицированный мастер шугаринга и ваксинга.</p>
+                </div>
+            </div>
+            <div class="team-card">
+                <img src="https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&q=80&w=400" alt="Мастер Дарья">
+                <div class="team-info">
+                    <h4>Мастер Дарья</h4>
+                    <p>Специалист аппаратной косметологии и пилинга.</p>
+                </div>
+            </div>
+            <div class="team-card">
+                <img src="https://images.unsplash.com/photo-1598550874175-4d0ef436c909?auto=format&fit=crop&q=80&w=400" alt="Мастер Ольга">
+                <div class="team-info">
+                    <h4>Мастер Ольга</h4>
+                    <p>Эксперт по электроэпиляции, опыт более 5 лет.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT FORM SECTION -->
+    <section id="contact" class="contact-section">
+        <div class="contact-wrap">
+            <h2 class="section-title" style="margin-bottom: 10px;">Свяжитесь с нами</h2>
+            <p class="contact-subtitle">Оставьте ваши данные и мы свяжемся с вами для подтверждения записи</p>
+            
+            <form action="https://formsubmit.co/Kseniasidorkina99@gmail.com" method="POST" class="contact-form">
+                <!-- Отключаем Captcha от FormSubmit если нужно: -->
+                <input type="hidden" name="_captcha" value="false">
+                <!-- Куда перенаправлять после успешной отправки -->
+                <input type="hidden" name="_next" value="http://localhost:5173/">
+                
+                <div class="form-group">
+                    <input type="text" name="Имя" class="form-input" placeholder="Ваше имя" required>
+                </div>
+                <div class="form-group">
+                    <input type="tel" name="Телефон" class="form-input" placeholder="Ваш телефон" required>
+                </div>
+                <button type="submit" class="hero-btn submit-btn">Оставить заявку</button>
+            </form>
+        </div>
+    </section>
+
+</div>
+
+<!-- Логика переключения табов -->
+<script>
+    document.addEventListener("DOMContentLoaded", () => {
+        let currentGender = 'women';
+        let currentCategory = 'epilation';
+
+        function updateTabs() {
+            // Переключаем пол
+            document.querySelectorAll('.gender-tabs .tab-link').forEach(btn => btn.classList.remove('active'));
+            document.querySelector(`.gender-tabs .tab-link[data-val="${currentGender}"]`).classList.add('active');
+
+            // Переключаем категорию (Эпиляция/Косметология)
+            document.querySelectorAll('.category-tabs .tab-link').forEach(btn => btn.classList.remove('active'));
+            document.querySelector(`.category-tabs .tab-link[data-val="${currentCategory}"]`).classList.add('active');
+
+            // Отображаем нужный контент
+            document.querySelectorAll('.tab-pane').forEach(pane => pane.classList.remove('active'));
+            const targetId = `pane-${currentGender}-${currentCategory}`;
+            const targetPane = document.getElementById(targetId);
+            if (targetPane) {
+                targetPane.classList.add('active');
+            }
+        }
+
+        // Слушатели на все переключатели
+        document.querySelectorAll('.tab-link').forEach(btn => {
+            btn.addEventListener('click', () => {
+                const type = btn.getAttribute('data-type');
+                const val = btn.getAttribute('data-val');
+                
+                if (type === 'gender') currentGender = val;
+                if (type === 'category') currentCategory = val;
+                
+                updateTabs();
+            });
+        });
+    });
+</script>
+
+</body>
+</html>
